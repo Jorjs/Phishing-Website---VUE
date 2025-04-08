@@ -11,7 +11,6 @@ export interface TUser {
 }
 export type AuthState = {
 	user: TUser | null;
-	returnUrl: string | null;
 	message: TError | null;
 	sessionTime: number | null;
 	logged: boolean;

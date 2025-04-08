@@ -21,7 +21,6 @@ export const useAuthStore = defineStore('auth', {
       }
     })(),
     logged: !!VueCookieNext.getCookie('user'),
-    returnUrl: null,
     message: null as TError | null,
     loginError: null as TError | null,
     invalidLoginInfo: false,
